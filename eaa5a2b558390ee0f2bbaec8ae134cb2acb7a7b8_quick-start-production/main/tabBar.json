@@ -1,0 +1,20 @@
+{
+  "textColor": 10066329,
+  "selectedColor": 6079903,
+  "backgroundColor": 16777215,
+  "items": [
+    {
+      "name": "Counter",
+      "tag": "pages/counter/index",
+      "url": "index.html#pages/counter/index",
+      "launchParamsTag": "pages/counter/index"
+    },
+    {
+      "name": "todos",
+      "tag": "pages/todos/index",
+      "url": "index.html#pages/todos/index",
+      "launchParamsTag": "pages/todos/index"
+    }
+  ],
+  "disableOnInit": true
+}

@@ -1,0 +1,37 @@
+{
+  "window": {
+    "defaultTitle": "hercules example simple quick-start collection"
+  },
+  "pages": [
+    "pages/counter/index",
+    "pages/todos/index",
+    "pages/api/index",
+    "pages/test/index"
+  ],
+  "subPackages": [
+    {
+      "root": "packages",
+      "pages": [
+        "pages/index/index"
+      ]
+    }
+  ],
+  "launchParams": {
+    "pages/counter/index": {
+      "defaultTitle": "计数器"
+    },
+    "pages/todos/index": {
+      "defaultTitle": "TODO 列表"
+    },
+    "pages/api/index": {
+      "defaultTitle": "简单 api 获取数据"
+    },
+    "pages/test/index": {
+      "defaultTitle": "test"
+    },
+    "packages/pages/index/index": {
+      "defaultTitle": "hercules example simple quick-start collection"
+    }
+  },
+  "prerenderPage": "index.html"
+}
